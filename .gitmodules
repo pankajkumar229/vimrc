@@ -43,3 +43,6 @@
 [submodule "bundle/dirdiff"]
 	path = bundle/dirdiff
 	url = https://github.com/vim-scripts/DirDiff.vim.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
