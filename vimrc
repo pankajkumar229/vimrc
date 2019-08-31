@@ -170,7 +170,6 @@ function! VisualSearch(direction) range
   let @" = l:saved_reg
 endfunction
 
-
 "===== command mode ====="
 
 " Smart mappings on the command line
@@ -404,3 +403,11 @@ au FileType java shiftwidth=4 tabstop=4
 au BufNewFile,BufReadPost *.as setl filetype=actionscript
 au BufNewFile,BufReadPost *.as setl shiftwidth=4 tabstop=4
 au filetype actionscript set noexpandtab
+
+"" YouCompleteMe
+let g:ycm_server_python_interpreter = "/usr/bin/python"
+
+"" Tab
+set tabstop=4
+set shiftwidth=4
+set expandtab
