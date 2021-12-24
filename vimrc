@@ -411,3 +411,4 @@ let g:ycm_server_python_interpreter = "/usr/bin/python"
 set tabstop=4
 set shiftwidth=4
 set expandtab
+colorscheme evening
