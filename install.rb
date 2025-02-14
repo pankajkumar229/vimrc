@@ -21,7 +21,7 @@ if File.exist?(VIMRUNTIME)
   abort "#{VIMRUNTIME} already exists" unless Dir["#{VIMRUNTIME}/*"].empty?
 end
 
-system "git clone https://github.com/pankajkumar229/vimrc.git #{VIMRUNTIME}"
+system "git clone git@github.com:pankajkumar229/vimrc.git #{VIMRUNTIME}"
 
 Dir.chdir VIMRUNTIME
 system "git submodule update --init"
